@@ -38,13 +38,13 @@ public class FileSynchronizer {
 
     private void isDir(Path path) {
         if (!Files.isDirectory(path)) {
-            throw new IllegalArgumentException(String.format("Указанный путь %s - не является директорией", path));
+            throw new IllegalArgumentException(String.format("Specified path %s is not a directory", path));
         }
     }
 
     private void notNullOrEmpty(String path) {
         if (path == null || path.isEmpty()) {
-            throw new IllegalArgumentException("Путь не должен быть пустым.");
+            throw new IllegalArgumentException("Path should not be empty.");
         }
 
     }
