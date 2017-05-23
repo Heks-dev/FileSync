@@ -77,7 +77,7 @@ public class SynchronizingFileVisitor extends SimpleFileVisitor<Path> {
                 Path targetFilePos = srcCur.resolve(currentDir).resolve(file.getFileName());
                 if (Files.notExists(targetFilePos)) {
                     Files.delete(file);
-                    System.out.println("File was deleted: " + file);
+                    System.out.println("Deleted file: " + file);
                 }
                 return CONTINUE;
             }
