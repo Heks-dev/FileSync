@@ -2,7 +2,7 @@ import ua.com.juja.amg.filesync.FileSynchronizer;
 
 import java.io.IOException;
 
-public class Main {
+public class FileSync {
     public static void main(String[] args) throws IOException {
         verifyArgs(args);
         FileSynchronizer synchronizer = new FileSynchronizer(args[0], args[1]);
