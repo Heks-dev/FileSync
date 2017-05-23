@@ -13,7 +13,7 @@ public class SynchronizingFileVisitor extends SimpleFileVisitor<Path> {
     private final Path dstRoot;
     private Path currentDir;
 
-    public SynchronizingFileVisitor(Path src, Path dest) {
+    SynchronizingFileVisitor(Path src, Path dest) {
         this.srcRoot = src;
         this.dstRoot = dest;
         currentDir = ROOT;
