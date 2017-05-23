@@ -4,7 +4,7 @@ File synchronizer implemented via java 7 nio.
 How to use:
 
 Compile and run FileSync class from console. 
-For correctly start you need to specify source path and destination path.
+For correctly start you need to specify source and destination paths.
 
 
 The following is an example of calling a program from the console:
